@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Form from "../components/Form.vue";
+---
+
+<Layout title="Create">
+  <h1 class="text-5xl text-white font-bold text-center mb-4 leading-none">
+    Creating a new MD file
+  </h1>
+  <Form client:only />
+</Layout>
